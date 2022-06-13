@@ -1,0 +1,4 @@
+site link==> https://lighthearted-cucurucho-248276.netlify.app/
+
+backend diployed on heroku
+front diployed on netlify

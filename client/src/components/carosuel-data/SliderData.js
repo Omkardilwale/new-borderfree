@@ -1,0 +1,22 @@
+export const SliderData = [
+    {
+      image:
+        'https://www.shopickr.com/wp-content/uploads/2019/02/myntra-accessories-sale.jpg'
+    },
+    {
+      image:
+        'https://dealroup.com/wp-content/uploads/2019/11/Myntra-coupons-1024x536.jpg'
+    },
+    {
+      image:
+        'https://www.bandhanbank.com/sites/default/files/2021-04/Bandhan_Myntra_Offer_Banner_02.jpg'
+    },
+    {
+      image:
+        'https://cdn.static-zoutons.com/images/originals/blog/1648115088415.jpg_1648115088.png'
+    },
+    {
+      image:
+        'https://1.bp.blogspot.com/-32jEHcMzr2g/YTIInK0HkSI/AAAAAAAAGR4/odpY9MQXQc8xMoZZWOwI4DoYeHt19_5CwCLcBGAsYHQ/s922/Myntra-Amex.jpg'
+    }
+  ];

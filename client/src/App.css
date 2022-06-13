@@ -1,0 +1,177 @@
+img.d-inline-block.align-text-top {
+  height: 40px;
+  width: 150px;
+}
+.slider {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+img.images {
+  height: 351px;
+  width: 1150px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 45%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 45%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  
+}
+
+.footerpage {
+  text-align: center;
+  padding-top: 8px;
+  background-color:white;
+  margin-top: 10px;
+}
+
+.card-grid {
+  padding-top: 8px;
+  background-color: white;
+}
+
+h5 {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 70px;
+}
+
+.cardbox {
+  width: 312px;
+  height: 570px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 7px -3px;
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+.middle {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+  margin-top: 15px;
+}
+
+.offer {color: red;}
+
+.middle img {
+  border-radius: 20px;
+  width: 292px;
+  box-shadow: 0px 0px 7px -1px;
+  height: 270px;
+}
+
+.clicktext p {
+  FONT-SIZE: 10PX;
+  text-align: center;
+}
+
+
+.summerypage {
+  box-shadow: 0px 0px 7px 0px;
+  height: 610px;
+  width: 850px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+
+.summerypage img {
+  height: 350px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 12px 0px;
+  border-radius: 20px;
+  width: 350px;
+  margin-left: 15px;
+}
+
+.summimage {
+  margin-top: 10px;
+}
+
+.summimage h3 {
+  color: red;
+}
+
+.App {
+  background-color: rgb(212, 236, 212);
+}
+
+.details {
+  margin-left: 70px;
+  text-align: initial;
+}
+
+.summerypage h3 {
+  color: red;
+}
+
+button {
+  background-color: deepskyblue;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 0px;
+  /* color: aliceblue; */
+  font-weight: 600;
+}
+p.note {
+  text-align: center;
+  color: red;
+}
+
+.title {
+  height: 184px;
+}
